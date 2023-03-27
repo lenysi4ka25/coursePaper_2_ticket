@@ -76,7 +76,7 @@ public class User implements Comparable<User> {
         for (String employeeByKeys : employeeByKey) {
             System.out.println(employeeByKeys);
         }
-
+        System.out.println("Задача 1");
         System.out.println("------------------------------------------------");
 
         List<User> employeeByValues = new ArrayList<>(users.values());
@@ -114,6 +114,7 @@ public class User implements Comparable<User> {
             }
             mapWords.put(arrayWords[i], count);
         }
+        System.out.println("Задача 2");
         System.out.println(mapWords);
 
 
